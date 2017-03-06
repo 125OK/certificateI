@@ -1,0 +1,14 @@
+<beans>
+	<!--CouponService 优惠信息配置文件 -->
+	<service xmlns="http://xfire.codehaus.org/config/1.0" xmlns:s="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+		<name>AndroidService</name>
+		<!--<namespace>http://172.168.1.110:8080/GuilinPDA/CouponService</namespace> -->
+		<serviceClass>com.shdic.szhg.newServices.AndroidService</serviceClass>
+		<implementationClass>com.shdic.szhg.newServicesImpl.AndroidServiceImpl
+		</implementationClass>
+
+	</service>	
+</beans>
+

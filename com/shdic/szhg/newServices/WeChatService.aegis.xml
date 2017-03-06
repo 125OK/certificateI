@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings>
+	<mapping>
+		<!-- 接口3：获取外国人服务类别 -->
+		<method name="getWgrfwlx">
+			<parameter index="0" mappedName="syresource_id"></parameter>
+			<parameter index="1" mappedName="openid"></parameter>
+			<parameter index="2" mappedName="ip"></parameter>
+			<return-type componentType="java.lang.String" />
+		</method>
+		<!-- 接口5：XXXX公告详细内容查询  -->
+		<method name="getContentById">
+			<parameter index="0" mappedName="id"></parameter>
+			<parameter index="1" mappedName="openid"></parameter>
+			<parameter index="2" mappedName="ip"></parameter>
+			<return-type componentType="java.lang.String" />
+		</method>
+		<!-- 接口4：获取XXXX公告目录-->
+		<method name="getGglist">
+			<parameter index="0" mappedName="content_id"></parameter>
+			<parameter index="1" mappedName="openid"></parameter>
+			<parameter index="2" mappedName="ip"></parameter>
+			<return-type componentType="java.lang.String" />
+		</method>
+		<!-- 接口7：自助咨询回复信息查询 (与接口6合并)-->
+		<method name="getSelfDictionCfg">
+			<parameter index="0" mappedName="dj"></parameter>
+			<parameter index="1" mappedName="subnode_id"></parameter>
+			<parameter index="2" mappedName="openid"></parameter>
+			<parameter index="3" mappedName="ip"></parameter>
+			<return-type componentType="java.lang.String" />
+		</method>
+		<!-- 接口11：大厅实况导航 -->
+		<method name="getPdCount">
+			<parameter index="0" mappedName="sld"></parameter>
+			<parameter index="1" mappedName="openid"></parameter>
+			<parameter index="2" mappedName="ip"></parameter>
+		</method>
+	
+	<!-- 广西公安再次签和新办证数据下载 -->
+		<method name="getDownloadData">
+			<parameter index="0" mappedName="username"></parameter>
+			<parameter index="1" mappedName="pwd"></parameter>
+			<parameter index="2" mappedName="type"></parameter>
+		</method>
+		
+	</mapping>
+
+
+
+
+
+
+</mappings>
+
