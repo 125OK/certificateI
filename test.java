@@ -16,7 +16,7 @@ public class test {
 
 	public void connectServer() throws IOException {
 		try {
-			// server：FTP服务器的IP地址；user:登录FTP服务器的用户名
+			// server：FTP服务器的IP地址；user:登录FTP服务器的用户名 测试
 			// password：登录FTP服务器的用户名的口令；path：FTP服务器上的路径
 
 			FTPClient ftpClient = new FTPClient();
